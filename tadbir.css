@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#input-search {
+    margin-left: 17rem;
+    height: 3.5rem;
+    border-radius: 18px;
+    background: #EDEEF0;
+    position: relative;
+    width: 20rem;
+    font-weight: bold;
+    color: #004E64;
+}
+
+
+
+form img {
+    position: absolute;
+    outline: none;
+    margin-left: 34rem;
+    margin-top: 6.3px;
+    cursor: pointer;
+    width: 2.8rem ;
+}
+
+.Logo {
+    width: 8rem;
+}
+
+/* #royhat-btn {
+   background: #3EAB9A;
+   border-radius: 18.8486px;
+   width: 16rem;
+   margin: 0 2rem;
+}
+
+#royhat {
+   padding: 18px 32px;
+   text-align: center;
+   color: #FFFFFF !important;
+   font-size: 1.35rem;
+} */
+
+
+
+.tadbirlar {
+    background-color: #f4f4f4;
+    height: 90vh;
+}
+
+
+
+.tadbir-h2 {
+    text-align: center;
+    color: #004E64;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 40px;
+
+}
+
+.tadbir-card {
+   width: 80rem;
+   height: 30rem;
+    background-color: #fff;
+}
+
+.row h3 {
+    color: #7e7e7e;
+    margin: 2rem 5rem;
+
+}

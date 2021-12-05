@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: "Jeko-Black";
+    src: url(./font/circular-std-medium-500.ttf) format("truetype");
+}
+
+body{
+    background-color: #f5f5f5 !important;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#input-search {
+    margin-left: 18rem;
+    height: 3.5rem;
+    border-radius: 18px;
+    background: #EDEEF0;
+    position: relative;
+    width: 20rem;
+    font-weight: bold;
+    color: #004E64;
+}
+
+
+
+form img {
+    position: absolute;
+    outline: none;
+    margin-left: 35rem;
+    margin-top: 6.3px;
+    cursor: pointer;
+    width: 2.8rem ;
+}
+
+.Logo {
+    width: 8rem;
+}
+
+#royhat-btn {
+   background: #3EAB9A;
+   border-radius: 18.8486px;
+   width: 16rem;
+   margin: 0 2rem;
+}
+
+#royhat {
+   padding: 18px 32px;
+   text-align: center;
+   color: #FFFFFF !important;
+   font-size: 1.35rem;
+}
+
+.orta-qism {
+    margin-top: 3rem;
+}
+
+.orta-qism .row h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+
+}
+
+.Jizzax {
+    color: #25A18E;
+    letter-spacing: 0.5rem;
+}
+
+iframe {
+    border-radius: 18px;
+    outline: 7px solid #25A18E;
+    margin-top: 1rem;
+}
+
+.row .col-3 button {
+    width: 95%;
+    height: 5rem;
+    margin: 47px 2rem;
+    border: 2px solid #25A18E;
+    color: #25A18E;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.7rem;
+
+ }
+
+.row .col-3 button:hover {
+     background-color: #25A18E;
+     color: #fff;
+
+ }
+
+ 
+
+
+.headtit{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 41px;
+    letter-spacing: 3.39692px;
+    text-transform: uppercase;
+ }
+ 
+.city{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    height: 55px;
+}
+
+.city p{
+    margin-top: 15px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #003049;
+
+}
+
+.row .col-4 h3{
+    font-family: Jeko-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 3.39692px;
+    text-transform: uppercase;
+    
+    margin-top: 60px;
+    margin-bottom: 29px;
+    color: #003049;
+    text-align: center;
+}
+
+.row .col-4 a img{
+    margin-bottom: 200px;
+}

@@ -10,7 +10,19 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700;800&family=Open+Sans&display=swap" rel="stylesheet">
-    
+        <style>
+            .row .col-3 button {
+                height: 5rem;
+                margin: 27px 2rem;
+                border: 2px solid #25A18E;
+                color: #25A18E;
+                border-radius: 10px;
+                font-weight: 600;
+                font-size: 1.7rem;
+                width: 95%;
+
+ }
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
@@ -46,7 +58,7 @@
             <div class="container">
               <div class="row">
                 <div class="col">
-                  <h2 class="Jizzax" style="color: #003049;"> Birinchi martami? </h2>
+                  <h2 class="Jizzax" style="font-size: 25PX; font-weight: 800;letter-spacing: 2px;                  " >TA'LIM MUASSASALARI</h2>
                 </div>
               </div>
            
@@ -54,26 +66,28 @@
             <div class="row">
               <div class="col-9">
                 <div id="Home" class="tabcontent">
-                    <div id="map3" style="position: absolute;"><iframe width="915" height="464" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=sport+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a></iframe></div>
+                    <div id="map3" style="position: absolute;"><iframe width="915" height="622" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=sport+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a></iframe></div>
                </div>
     
                 <div id="Contact" class="tabcontent">
-                    <div id="map3" style="position: absolute;"><iframe width="915" height="464" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=entertainment+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a></iframe></div>
+                    <div id="map3" style="position: absolute;"><iframe width="915" height="622" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=entertainment+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a></iframe></div>
                 </div>
                 
                 <div id="About" class="tabcontent">
-                    <div id="map3" style="position: absolute;"><iframe width="915" height="464" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=education+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a></iframe></div>
+                    <div id="map3" style="position: absolute;"><iframe width="915" height="622" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=education+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a></iframe></div>
                 </div>
             </div>
               
               <div class="col-3">
-                  <h3 class="headtit" style="color: #003049;">Tadbirlar</h3>
-                <button type="button" id="defaultOpen" class="btn btn-outline-info d-block" onclick="openPage('Home', this, '')"id="defaultOpen">SPORT</button>
-                <button type="button" class="btn btn-outline-info d-block" onclick="openPage('Contact', this, '')">HORDIQ</button>
-                <button type="button" class="btn btn-outline-info d-block" onclick="openPage('About', this, '')">TA'LIM</button>
-              </div>
+                  <h3 class="headtit" style="color: #25A18E; margin-left: 100px;">Turlar</h3>
+                <button type="button" id="defaultOpen" class="btn btn-outline-info d-block" onclick="openPage('Home', this, '')"id="defaultOpen">Maktablar</button>
+                <button type="button" class="btn btn-outline-info d-block" onclick="openPage('Contact', this, '')">Litsiylar</button>
+                <button type="button" class="btn btn-outline-info d-block" onclick="openPage('About', this, '')">Universitetlar</button>
+                <button type="button" class="btn btn-outline-info d-block" onclick="openPage('Contact', this, '')">Kutubxonalar</button>
+                <button type="button" class="btn btn-outline-info d-block" onclick="openPage('About', this, '')">O'quv markazlari</button>
             </div>
-            <div class="city">
+            </div>
+            <div class="city" style="margin-top: 33px;">
                 <p>Sizning shaxringiz:</p>
                 <select name="rigion" id="rigion" style="height: 35px;width: 199;border-radius: 7.7px;">
                     <option value="volvo">Toshkent</option>
@@ -91,24 +105,8 @@
                     <option value="audi">Farg'ona</option>
                   </select>
             </div>
-            <div class="row">
-                <div class="col-4">
-                    <h3>TADBIR YARATISH</h3>
-                    <a href="tadbir.html"><img src="image/Group 992.png"></a>
-                </div>
-                <div class="col-4">
-                    <h3>TA'LIM MUASSASALARI</h3>
-                    <a href="edu.html"><img src="image/Group 995.png"></a>
-
-                </div>
-                <div class="col-4">
-                    <h3>SPORT MUASSASALARI</h3>
-                    <a href="#"><img src="image/Group 994.png"></a>
-                </div>
-            </div>
-          </div>
-        </div>
-     
+   
+            <img src="image/Group 996.png" style="margin: 38px 0 200px 0;">
         
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
